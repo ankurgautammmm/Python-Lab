@@ -1,0 +1,5 @@
+from datetime import date
+date1 = date(2014, 7, 30)
+date2 = date(2014, 8, 12)
+delta = date2 - date1
+print(f"Number of days: {delta.days}")
